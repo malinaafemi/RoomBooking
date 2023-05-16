@@ -44,26 +44,26 @@ namespace RoomBooking
             switch (pilihan)
             {
                 case 1:
-                    MenuView.Insert();
+                    MenuView.ChooseTable();
                     int gChoice = Convert.ToInt32(Console.ReadLine());
                     GetTable(gChoice);
                     break;
 
                 case 2:
-                    MenuView.Insert();
+                    MenuView.ChooseTable();
                     int iChoice = Convert.ToInt32(Console.ReadLine());
                     InsertTable(iChoice);
                     // Dictionary<string, object> columnValues = new Dictionary<string, object>();
                     break;
 
                 case 3:
-                    MenuView.Insert();
+                    MenuView.ChooseTable();
                     int uChoice = Convert.ToInt32(Console.ReadLine());
                     UpdateTable(uChoice);
                     break;
 
                 case 4:
-                    MenuView.Insert();
+                    MenuView.ChooseTable();
                     int dChoice = Convert.ToInt32(Console.ReadLine());
                     DeleteTable(dChoice);
                     break;

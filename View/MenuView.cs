@@ -8,7 +8,7 @@ namespace RoomBooking.View
 {
     public class MenuView
     {
-        public static void Insert()
+        public static void ChooseTable()
         {
             Console.WriteLine("Select table: ");
             Console.WriteLine("1. Universities");
