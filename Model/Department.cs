@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace RoomBooking
 {
-    public class Universities
+    public class Department
     {
-        public int? Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
+
     }
 }

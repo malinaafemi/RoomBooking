@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoomBooking
 {
-    internal class Bookings
+    internal class Booking
     {
         public int Id {  get; set; }
         public DateTime StartDate { get; set; }

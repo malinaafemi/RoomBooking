@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace RoomBooking
 {
-    public class Departments
+    public class Role
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-
     }
 }

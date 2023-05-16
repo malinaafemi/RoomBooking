@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoomBooking
 {
-    public class Accounts
+    public class Account
     {
         public int EmployeeId { get; set; }
         public string Password { get; set; }
